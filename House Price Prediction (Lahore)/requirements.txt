@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+scikit-learn==1.8.0
+joblib
+pandas
+flet==0.28.3
