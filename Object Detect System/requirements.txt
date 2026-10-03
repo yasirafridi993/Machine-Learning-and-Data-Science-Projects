@@ -1,0 +1,20 @@
+# AI Object Detection System — dependencies
+# Install with: pip install -r requirements.txt
+#
+# Notes:
+# - torch is CPU-only by default via PyPI. For GPU (CUDA) acceleration,
+#   install the matching CUDA build of torch first from https://pytorch.org/
+#   before installing the rest of this file.
+# - ultralytics will download the default yolov8n.pt weights automatically
+#   on first run if models/yolov8n.pt is not already present.
+
+flet==0.24.1
+ultralytics==8.3.28; python_version < "3.13"
+ultralytics==8.4.171; python_version >= "3.13"
+opencv-python==4.10.0.84
+torch==2.4.1; python_version < "3.13"
+torchvision==0.19.1; python_version < "3.13"
+numpy==1.26.4; python_version < "3.13"
+torch==2.14.1; python_version >= "3.13"
+torchvision==0.29.1; python_version >= "3.13"
+numpy==2.5.3; python_version >= "3.13"
