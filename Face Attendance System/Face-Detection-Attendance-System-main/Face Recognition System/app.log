@@ -1,0 +1,15 @@
+2026-06-24 17:36:58,211 - modules.trainer - WARNING - cv2.face is unavailable. Using fallback LBP histogram recognizer.
+2026-06-24 17:43:06,898 - utils.utils - INFO - ==================================================
+2026-06-24 17:43:06,899 - utils.utils - INFO - Starting Face Recognition Attendance System
+2026-06-24 17:43:06,899 - utils.utils - INFO - ==================================================
+2026-06-24 17:43:07,344 - utils.utils - INFO - Initializing GUI...
+2026-06-24 17:43:08,685 - utils.utils - INFO - GUI loaded successfully
+2026-06-24 17:43:08,690 - utils.utils - INFO - Application started!
+2026-06-24 17:44:43,595 - modules.registration - INFO - Face captured: e:\coding\professionL Projects\Face Recognition System\dataset\251-NUN-0018\251-NUN-0018_001.jpg
+2026-06-24 17:44:55,828 - modules.registration - INFO - Face captured: e:\coding\professionL Projects\Face Recognition System\dataset\251-NUN-0018\251-NUN-0018_002.jpg
+2026-06-24 17:45:00,973 - modules.registration - INFO - Registration cancelled by user
+2026-06-24 17:45:01,301 - modules.registration - INFO - Registration complete for Yasir Afridi: 2 faces captured
+2026-06-24 17:45:01,312 - utils.database - INFO - User added: Yasir Afridi (251-NUN-0018)
+2026-06-24 17:45:01,314 - modules.registration - INFO - User registered successfully: Yasir Afridi (251-NUN-0018)
+2026-06-24 17:45:45,664 - utils.utils - INFO - Application closed
+2026-06-24 17:45:45,705 - utils.utils - INFO - ==================================================

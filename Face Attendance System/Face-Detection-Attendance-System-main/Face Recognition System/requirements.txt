@@ -1,0 +1,11 @@
+# Face Recognition Attendance System
+# Install with: pip install -r requirements.txt
+
+# opencv-contrib-python gives the best LBPH recognizer.
+# The app also has a fallback if only opencv-python is installed.
+opencv-contrib-python>=4.10.0
+numpy>=1.26.0
+Pillow>=10.0.0
+pandas>=2.2.0
+python-dateutil>=2.8.2
+colorlog>=6.8.0
